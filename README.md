@@ -7,6 +7,8 @@ python3 -m venv env
 source env/bin/activate
 ```
 
+Then install the requirements by
 
-
-pip install imagecodecs zarr PTable fpdf wget gputools stardist csbdeep tifffile python-docx scikit-image
+```sh
+pip install -r requirements.txt
+```
