@@ -42,9 +42,8 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
 MODEL = '2D_versatile_fluo'
-# ENDS _NOT_ WITH A SLASH!!
-PATH_TO_DATA = '/Volumes/KV23_group/LP23/LM_Leica/Endpoint_HC_assays/Cx32IRES_HCassays/cx32IRES/220221_Cx32IRES_HCrep1'
-name = 'Cx32IRES_HCrep1'  # Name of the experiment
+PATH_TO_DATA = '/Path/To/dataset' # ENDS _NOT_ WITH A SLASH!!
+name = 'Name'  # Name of the experiment
 
 SHOW_IMAGES = True
 
