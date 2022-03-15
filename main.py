@@ -65,9 +65,6 @@ else:
 Results = os.path.join(PATH_TO_DATA, 'Results')
 Path(Results).mkdir(parents=True, exist_ok=True)
 
-Results_wi = os.path.join(Results, 'Results_wi')
-Path(Results_wi).mkdir(parents=True, exist_ok=True)
-
 Results_ic = os.path.join(Results, 'Results_ic')
 Path(Results_ic).mkdir(parents=True, exist_ok=True)
 
@@ -187,7 +184,7 @@ None
 report.add_heading(
     'Segmentation, mask generation and measurement: individual cell measurement', 1)
 model = StarDist2D.from_pretrained(MODEL)
-THRESHOLD = 1000
+THRESHOLD = 1000 # Modify based on experimental data
 measurements = []
 measurements_merged = []
 
